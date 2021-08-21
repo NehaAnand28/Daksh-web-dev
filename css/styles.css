@@ -68,6 +68,12 @@ h1 {
   background-size: cover;
   z-index: -9;
 }
+.responsive img
+{
+  width: 100%;
+  height: auto;
+
+}
 .wrap-img {
   position: relative;
   overflow: hidden;
@@ -117,7 +123,7 @@ a:visited {
 .button {
   text-transform: uppercase;
   margin: 0 17px 0 0;
-  padding: 5px 20px;
+  padding: 5px 21px;
   font-family: Helvetica, sans-serif;
   font-weight: 600;
   font-size: 14px;
@@ -134,6 +140,9 @@ a:visited {
   transition: background-color 0.15s ease-in;
   white-space: normal;
   min-width: 185px;
+}
+.button.btn-dark{
+  line-height: 29px;
 }
 .btn-outline-dark {
   color: #0b1320;
@@ -155,19 +164,59 @@ a:visited {
 /* END OF BUTTONS */
 
 /* RESPONSIVE STARTER PART */
+@media only screen and (min-width: 446px){
+.button{
+  display: inline-block;
+}
+}
+@media only screen and (max-width: 506px){
+  .btn-outline-dark{
+    margin-bottom: 100px;
+  }
+}
+
 @media only screen and (max-width: 940px) {
   h1 {
-    font-size: 2rem;
+    font-size: 2.625rem;
+    line-height: 1.29;
   }
   .bg-img{
     width: 500px;
   }
   .start-left-box {
-    padding:0%
+    padding:0% 
   }
+  .btn-outline-dark{
+     margin-top:10px;
+     margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 1226px) and (min-width:960px)
+{
+  .start-left-box{
+    /* padding-right: 3%; */
+  }
+  .btn-outline-dark{
+    margin-top:10px;
+    margin-bottom: 50px;
+ } 
+ @media only screen and (min-width:960px)
+ {
+  h1 {
+    font-size: 2.625rem;
+    line-height: 1.29;
+  }
+  .start-left-box{
+    padding-right: 3%;
+  }
+ }
+}
+@media only screen and (min-width: 1226px)
+{
   .button{
-
+    margin-bottom: 50px;
   }
+
 }
 
 .l-col-widget {
