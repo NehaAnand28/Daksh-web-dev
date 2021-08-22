@@ -35,6 +35,11 @@ h2 {
   font-style: normal;
   color: #0b1320;
 }
+img {
+  width: 100%;
+  max-width: 45rem;
+  margin: auto;
+}
 /* SECTION 1----STARTING PART(start) */
 .std-page {
   margin-left: auto;
@@ -76,7 +81,8 @@ h2 {
   margin: 0;
 }
 .bg-img {
-  background-image: url("../../images/bg-img.png");
+  /* background-image: url("../../images/bg-img.png"); */
+  background: linear-gradient(108deg, rgba(232,220,249,1) 0%, rgba(120,85,167,1) 100%);
   background-size: cover !important;
   position: absolute;
   width: 100%;
@@ -356,63 +362,59 @@ a:visited {
   background-color: transparent;
 }
 @media only screen and (max-width: 991px) {
-  .divider-right{
+  .divider-right {
     border: none;
   }
-  .class2{
+  .class2 {
     margin: 6% 5%;
   }
 }
 
-@media only screen and (max-width:700px)
-{
-  .class2{
+@media only screen and (max-width: 700px) {
+  .class2 {
     margin: 6% 3%;
   }
-  .container{
+  .container {
     padding: 0 0;
   }
 }
 
 /* ----------------SECTION 3--------------------- */
-.class3{
-  color:#fff;
+.class3 {
+  color: #fff;
   background-color: #0b1320;
 }
-.class3 p{
+.class3 p {
   color: #fff;
 }
-.space{
+.space {
   margin: 0% 12.1%;
-
 }
-.section-3-spacing{
+.section-3-spacing {
   padding-top: 115px;
   padding-bottom: 100px;
 }
-.sec3-heading{
+.sec3-heading {
   text-align: center;
   position: relative;
-  color:#fff;
+  color: #fff;
   padding-bottom: 40px;
 }
-.sec3-heading h2 , .sec3-heading p{
-  color:#fff;
+.sec3-heading h2,
+.sec3-heading p {
+  color: #fff;
 }
 
-.align-center
-{
+.align-center {
   text-align: center;
 }
 @media only screen and (min-width: 960px) {
-  .sec3-heading{
-  padding-bottom: 31px;
-
+  .sec3-heading {
+    padding-bottom: 31px;
   }
-
 }
 @media only screen and (max-width: 960px) {
-  .section-3-spacing{
+  .section-3-spacing {
     padding-top: 40px;
     padding-bottom: 40px;
   }
@@ -420,28 +422,32 @@ a:visited {
 .link {
   cursor: pointer;
   font-size: 1rem;
-  transition: color .15s ease-in;
-  font-family: Helvetica,sans-serif;
+  transition: color 0.15s ease-in;
+  font-family: Helvetica, sans-serif;
   font-weight: 500;
   font-style: normal;
   line-height: 1;
   display: block;
 }
-.forward-link{
+.forward-link {
   color: #d82b00;
   display: inline-block;
   font-size: 16px;
   line-height: 16px;
   margin-top: 5px;
 }
-i.icon{
+i.icon {
   color: #d82b00;
   font-size: 11px;
   left: 5px;
 }
-i:hover{
+i:hover {
   /* transition: color .15s ease-in; */
   position: relative;
-  transition: right .15s ease-in;
-  
+  transition: right 0.15s ease-in;
+}
+
+.col-image {
+  width: 80px;
+  margin-bottom: 20px;
 }
