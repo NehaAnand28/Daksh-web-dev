@@ -19,9 +19,38 @@
 
     <!-- css style sheets -->
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/carousel.css">
+
     <!--font awesome-->
     <script src="https://kit.fontawesome.com/db76c3a070.js" crossorigin="anonymous"></script>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
 
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
 </head>
 
 <body>
@@ -284,10 +313,91 @@
     </section>
     <!-- --------------------------------SECTION 4  ENDS---------------------------------- -->
 
-    <hr>
     <!-- --------------------------------SECTION 5 STARTS---------------------------------- -->
 
-    <!-- <section class="class5"></section> -->
+    <section class="sec-pb light-grey">
+        <div class="std-page container align-center">
+            <div id="carouselExampleDark" class="carousel testimonial-home carousel-dark slide" data-bs-ride="carousel">
+
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true"
+                        aria-label="Slide 1"></li>
+                    <li data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></li>
+                    <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></li>
+                </ol>
+                <div class="carousel-inner" style="height: 467.516px;">
+                    <div class="carousel-item active" data-bs-interval="10000" style="height: 483.516px;">
+                        <div class="row testimonial-card all-center">
+                            <div class="col-md-12 testimonial-content">
+                                <div class="testimonial-logo all-center">
+                                    <!-- <img src="images/asset6.png" alt=""> -->
+                                    <img style="width:300px;height:200px" class="img-fluid user-logo"
+                                        src="images/user-logo1.PNG" alt="">
+                                    <!-- <img src="images/asset7.png" alt=""> -->
+                                </div>
+                                <p class="testimonial-quote">
+                                    “The Freshworks team was a great asset during implementation and continue to be a
+                                    key partner for Waterstons as we look to further mature and improve our services to
+                                    customers, tailored to their specific needs.”
+                                </p>
+                                <div class="col-md-10 col-md-offset-1 testimonial-author">
+                                    <h6 class="author-name align-center">Alex Bookless, Head of Managed Services,
+                                        Waterstons</h6>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <div class="row testimonial-card all-center">
+                            <div class="col-md-12 testimonial-content">
+                                <div class="testimonial-logo all-center">
+                                    <!-- <img src="images/asset6.png" alt=""> -->
+                                    <img style="width:300px;height:200px" class="img-fluid user-logo"
+                                        src="images/user-logo2.PNG" alt="">
+                                    <!-- <img src="images/asset7.png" alt=""> -->
+                                </div>
+                                <p class="testimonial-quote">
+                                    “For PhonePe, Freddy fetches context from the transactions made and offers
+                                    contextual assistance for a personalized self-service experience from right within
+                                    the app. We have been using it for a year and can confidently say that we have
+                                    accomplished most of what we had in mind.”
+                                </p>
+                                <div class="col-md-10 col-md-offset-1 testimonial-author">
+                                    <h6 class="author-name align-center">Vishal Gupta, Head of Product, PhonePe</h6>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="carousel-item">
+
+                        <div class="row testimonial-card all-center">
+                            <div class="col-md-12 testimonial-content">
+                                <div class="testimonial-logo all-center">
+                                    <!-- <img src="images/asset6.png" alt=""> -->
+                                    <img style="width:300px;height:200px" class="img-fluid user-logo"
+                                        src="images/user-logo3.PNG" alt="">
+                                    <!-- <img src="images/asset7.png" alt=""> -->
+                                </div>
+                                <p class="testimonial-quote">
+                                    “Because we're managing and handling tickets faster, satisfaction skyrocketed. 98% of the users say they are 'extremely satisfied' after handling a ticket, and give us a smiley face.”
+                                </p>
+                                <div class="col-md-10 col-md-offset-1 testimonial-author">
+                                    <h6 class="author-name align-center">Alex Anheuer, Manager Workplace Services, Payvision</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
     <!-- --------------------------------SECTION 5  ENDS---------------------------------- -->
 
     <section class="class6"></section>
