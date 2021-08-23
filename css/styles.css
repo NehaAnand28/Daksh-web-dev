@@ -621,8 +621,7 @@ i:hover {
   text-align: center;
 }
 
-@media only screen and (max-width: 576px) {
-}
+
 @media only screen and (min-width: 576px) {
   .class6 {
     margin: 6% 14%;
@@ -639,4 +638,33 @@ i:hover {
 }
 .card-space p{
   padding:2.5% 0;
+}
+
+/* SECTION 8 */
+.class8{
+  /* padding:20%; */
+  position: relative;
+  background-color: #0b1320;
+  /* color: #fff; */
+}
+.class8 h2,.class8 p{
+  color: #fff; 
+}
+.banner-space{
+  padding: 10% 0;
+ 
+}
+.btn-white,.btn-white:hover{
+  background-color: white;
+  margin-top: 2%;
+}
+@media only screen and (min-width: 576px) {
+  .banner-space{
+    padding: 4.5% 0;
+   
+  }
+}
+@media only screen and (min-width: 960px) 
+{
+   
 }
