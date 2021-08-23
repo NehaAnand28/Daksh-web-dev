@@ -539,6 +539,10 @@ i:hover {
 }
 
 /* SECTION 6 */
+.class6,.class5{
+  margin: 6% 10%;
+    text-align: center;
+}
  .sec6-heading {
   color: #000;
 }
@@ -559,9 +563,42 @@ i:hover {
     padding-bottom: 31px;
   }
 }
-
+@media (min-width: 768px){
+  .col-sm-6 {
+    width: 50%;
+}
+}
 @media (min-width: 960px){
   .col-md-3 {
     width: 25%;
 }
+}
+
+
+
+.icon-text-image.icon-text-image-medium {
+  max-width: 248px;
+  width: 100%;
+}
+.icon-text-image {
+  margin-bottom: 20px;
+}
+
+.button-space {
+  margin-top: 30px;
+}
+@media only screen and (min-width: 48rem){
+  .button-space {
+    margin-bottom: 40px;
+}
+}
+
+@media only screen and (max-width: 48rem){
+  .class6,.class5{
+    margin: 6% 5%;
+      text-align: center;
+  }
+}
+.align-left{
+  text-align: left;
 }
