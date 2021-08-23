@@ -30,7 +30,7 @@ h2 {
   font-size: 1.75rem;
   line-height: 2.125rem;
   line-height: 1.25;
-  font-family:  Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
   font-weight: 700;
   font-style: normal;
   color: #0b1320;
@@ -40,7 +40,8 @@ h4 {
   font-size: 1.5rem;
   line-height: 1.25;
 }
-h4 ,h6  {
+h4,
+h6 {
   font-weight: 500;
   color: #0b1320;
   font-family: Helvetica, sans-serif;
@@ -430,7 +431,7 @@ a:visited {
   .sec3-heading {
     padding-bottom: 31px;
   }
-  
+
   .l-col-widget {
     margin-top: 44px;
   }
@@ -539,11 +540,11 @@ i:hover {
 }
 
 /* SECTION 6 */
-.class6,.class5{
+.class5 {
   margin: 6% 10%;
-    text-align: center;
+  text-align: center;
 }
- .sec6-heading {
+.sec6-heading {
   color: #000;
 }
 .sec6-heading {
@@ -556,25 +557,22 @@ i:hover {
 .sec6-heading h2,
 .sec6-heading p {
   color: #000;
-
 }
-@media only screen and (min-width: 960px){
+@media only screen and (min-width: 960px) {
   .sec6-heading {
     padding-bottom: 31px;
   }
 }
-@media (min-width: 768px){
+@media (min-width: 768px) {
   .col-sm-6 {
     width: 50%;
+  }
 }
-}
-@media (min-width: 960px){
+@media (min-width: 960px) {
   .col-md-3 {
     width: 25%;
+  }
 }
-}
-
-
 
 .icon-text-image.icon-text-image-medium {
   max-width: 248px;
@@ -587,18 +585,58 @@ i:hover {
 .button-space {
   margin-top: 30px;
 }
-@media only screen and (min-width: 48rem){
+@media only screen and (min-width: 48rem) {
   .button-space {
     margin-bottom: 40px;
-}
-}
-
-@media only screen and (max-width: 48rem){
-  .class6,.class5{
-    margin: 6% 5%;
-      text-align: center;
   }
 }
-.align-left{
+
+@media only screen and (max-width: 48rem) {
+  .class6,
+  .class5 {
+    margin: 6% 5%;
+    text-align: center;
+  }
+}
+.align-left {
   text-align: left;
+}
+/* SECTION 7  */
+.card-space {
+}
+@media (max-width: 767px) {
+  .col-sm-4 {
+    width: 100%;
+  }
+  .card-space {
+    padding: 0 15%;
+  }
+}
+/* SECTION 8 */
+.card {
+  border: 0;
+  border-radius: 0;
+  max-width: auto;
+  height: auto;
+  text-align: center;
+}
+
+@media only screen and (max-width: 576px) {
+}
+@media only screen and (min-width: 576px) {
+  .class6 {
+    margin: 6% 14%;
+    text-align: center;
+  }
+}
+.card-p {
+  font-weight: 500;
+  margin: 0;
+  min-height: 48px;
+  line-height: 1.5;
+  color: #3b3f47;
+  
+}
+.card-space p{
+  padding:2.5% 0;
 }
