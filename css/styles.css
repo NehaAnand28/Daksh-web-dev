@@ -402,7 +402,7 @@ a:visited {
   background-color: #0b1320;
 }
 .class3 p,
-h4 {
+.class3 h4 {
   color: #fff;
 }
 .space {
@@ -430,6 +430,7 @@ h4 {
   .sec3-heading {
     padding-bottom: 31px;
   }
+  
   .l-col-widget {
     margin-top: 44px;
   }
@@ -537,3 +538,30 @@ i:hover {
   }
 }
 
+/* SECTION 6 */
+ .sec6-heading {
+  color: #000;
+}
+.sec6-heading {
+  text-align: center;
+  position: relative;
+  color: #000;
+
+  padding-bottom: 40px;
+}
+.sec6-heading h2,
+.sec6-heading p {
+  color: #000;
+
+}
+@media only screen and (min-width: 960px){
+  .sec6-heading {
+    padding-bottom: 31px;
+  }
+}
+
+@media (min-width: 960px){
+  .col-md-3 {
+    width: 25%;
+}
+}
