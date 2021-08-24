@@ -23,34 +23,7 @@
 
     <!--font awesome-->
     <script src="https://kit.fontawesome.com/db76c3a070.js" crossorigin="anonymous"></script>
-    <script>
-        var slideIndex = 1;
-        showSlides(slideIndex);
-
-        function plusSlides(n) {
-            showSlides(slideIndex += n);
-        }
-
-        function currentSlide(n) {
-            showSlides(slideIndex = n);
-        }
-
-        function showSlides(n) {
-            var i;
-            var slides = document.getElementsByClassName("mySlides");
-            var dots = document.getElementsByClassName("dot");
-            if (n > slides.length) { slideIndex = 1 }
-            if (n < 1) { slideIndex = slides.length }
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].className += " active";
-        }
-    </script>
+   
 </head>
 
 <body>
@@ -68,7 +41,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <img class="img-fluid responsive original-img fadein" src="images/girl-with-phone.png" alt="">
+                    <img class="img-fluid responsive blur" src="images/girl-with-phone.png" alt="">
                 </div>
             </div>
         </div>
@@ -85,7 +58,7 @@
                 <div class="row row-margin">
                     <div class="col-lg-6 divider-right mb-md">
                         <div class="wrap wrap-no-hover two-column">
-                            <div style="overflow: hidden;" class="wrap-section-2-img"><img
+                            <div style="overflow: hidden;" class="wrap-section-2-img blur"><img
                                     style=" max-width: 100%; height: auto; " class="responsive"
                                     src="images/customers.jpg" alt="customers"></div>
                             <h2 class="h2-section2 align-h2">Delight your customers</h2>
@@ -102,7 +75,7 @@
                     <div class="col-lg-6 mb-md">
                         <div class="wrap wrap-no-hover two-column">
                             <div style="overflow: hidden;" class="wrap-section-2-img"><img
-                                    style=" max-width: 100%; height: auto; " class="responsive"
+                                    style=" max-width: 100%; height: auto; " class="responsive blur"
                                     src="images/employees.jpg" alt="employees"></div>
                             <h2 class="h2-section2 align-h2">Delight your employees</h2>
                             <p>Help your employees crush internal NPS ratings with our intuitive, easy-to-use products,
@@ -190,95 +163,95 @@
                     companies of all sizes. Businesses from more than 120 countries around the world use Freshworks’
                     products to delight their customers and employees every day.</p>
             </div>
-            <div class="banners">
+            <div class="banners blur">
                 <div class="banner">
-                    <div class="lazy-image-wrapper loaded" style="">
-                        <img class="original-image fadeIn   " src="images/logo-pearson.png ">
+                    <div>
+                        <img  src="images/logo-pearson.png ">
                     </div>
                 </div>
                 <div class="banner">
-                    <div class="lazy-image-wrapper loaded" style="">
-                        <img class="original-image fadeIn   " src="images/logo-brewdog.png">
+                    <div>
+                        <img  src="images/logo-brewdog.png">
                     </div>
                 </div>
                 <div class="banner">
-                    <div class="lazy-image-wrapper loaded" style="">
-                        <img class="original-image fadeIn   " src="images/logo-bridgestone.png">
+                    <div>
+                        <img  src="images/logo-bridgestone.png">
                     </div>
                 </div>
                 <div class="banner">
-                    <div class="lazy-image-wrapper loaded" style="">
-                        <img class="original-image fadeIn   " src="images/logo-buying-show.png">
+                    <div>
+                        <img  src="images/logo-buying-show.png">
                     </div>
                 </div>
                 <div class="banner">
-                    <div class="lazy-image-wrapper loaded" style="">
-                        <img class="original-image fadeIn   " src="images/logo-klarna.png">
+                    <div>
+                        <img  src="images/logo-klarna.png">
                     </div>
                 </div>
                 <div class="banner">
-                    <div class="lazy-image-wrapper loaded" style="">
-                        <img class="original-image fadeIn   " src="images/logo-vicemg.png">
+                    <div>
+                        <img  src="images/logo-vicemg.png">
                     </div>
                 </div>
                 <div class="banner">
-                    <div class="lazy-image-wrapper loaded" style="">
-                        <img class="original-image fadeIn   " src="images/logo-deichmann.png">
+                    <div>
+                        <img  src="images/logo-deichmann.png">
                     </div>
                 </div>
                 <div class="banner">
-                    <div class="lazy-image-wrapper loaded" style="">
-                        <img class="original-image fadeIn   " src="images/logo-waterstons.png">
+                    <div>
+                        <img  src="images/logo-waterstons.png">
                     </div>
                 </div>
                 <div class="banner">
-                    <div class="lazy-image-wrapper loaded" style="">
-                        <img class="original-image fadeIn   " src="images/logo-fiverr.png">
+                    <div>
+                        <img  src="images/logo-fiverr.png">
                     </div>
                 </div>
                 <div class="banner">
-                    <div class="lazy-image-wrapper loaded" style="">
-                        <img class="original-image fadeIn   " src="images/logo-exabytes.png">
+                    <div>
+                        <img  src="images/logo-exabytes.png">
                     </div>
                 </div>
                 <div class="banner">
-                    <div class="lazy-image-wrapper loaded" style="">
-                        <img class="original-image fadeIn   " src="images/logo-GF.png">
+                    <div>
+                        <img  src="images/logo-GF.png">
                     </div>
                 </div>
                 <div class="banner">
-                    <div class="lazy-image-wrapper loaded" style="">
-                        <img class="original-image fadeIn   " src="images/logo-multichoice.png">
+                    <div>
+                        <img  src="images/logo-multichoice.png">
                     </div>
                 </div>
                 <div class="banner">
-                    <div class="lazy-image-wrapper loaded" style="">
-                        <img class="original-image fadeIn   " src="images/logo-bluenile.png">
+                    <div>
+                        <img  src="images/logo-bluenile.png">
                     </div>
                 </div>
                 <div class="banner">
-                    <div class="lazy-image-wrapper loaded" style="">
-                        <img class="original-image fadeIn   " src="images/logo-teamviewer.png">
+                    <div>
+                        <img  src="images/logo-teamviewer.png">
                     </div>
                 </div>
                 <div class="banner">
-                    <div class="lazy-image-wrapper loaded" style="">
-                        <img class="original-image fadeIn   " src="images/logo-engel.png">
+                    <div>
+                        <img  src="images/logo-engel.png">
                     </div>
                 </div>
                 <div class="banner">
-                    <div class="lazy-image-wrapper loaded" style="">
-                        <img class="original-image fadeIn   " src="images/logo-itv.png">
+                    <div>
+                        <img  src="images/logo-itv.png">
                     </div>
                 </div>
                 <div class="banner">
-                    <div class="lazy-image-wrapper loaded" style="">
-                        <img class="original-image fadeIn   " src="images/logo-delivery.png">
+                    <div>
+                        <img  src="images/logo-delivery.png">
                     </div>
                 </div>
                 <div class="banner">
-                    <div class="lazy-image-wrapper loaded" style="">
-                        <img class="original-image fadeIn   " src="images/logo-katz-media.png">
+                    <div >
+                        <img  src="images/logo-katz-media.png">
                     </div>
                 </div>
             </div>
@@ -304,7 +277,7 @@
                             <div class="col-md-12 testimonial-content">
                                 <div class="testimonial-logo all-center">
                                     <!-- <img src="images/asset6.png" alt=""> -->
-                                    <img style="width:300px;height:200px" class="img-fluid user-logo"
+                                    <img  style="width:300px;height:200px" class="img-fluid user-logo blur"
                                         src="images/user-logo1.PNG" alt="">
                                     <!-- <img src="images/asset7.png" alt=""> -->
                                 </div>
@@ -328,7 +301,7 @@
                             <div class="col-md-12 testimonial-content">
                                 <div class="testimonial-logo all-center">
                                     <!-- <img src="images/asset6.png" alt=""> -->
-                                    <img style="width:300px;height:200px" class="img-fluid user-logo"
+                                    <img style="width:300px;height:200px" class="img-fluid user-logo blur"
                                         src="images/user-logo2.PNG" alt="">
                                     <!-- <img src="images/asset7.png" alt=""> -->
                                 </div>
@@ -352,7 +325,7 @@
                             <div class="col-md-12 testimonial-content">
                                 <div class="testimonial-logo all-center">
                                     <!-- <img src="images/asset6.png" alt=""> -->
-                                    <img style="width:300px;height:200px" class="img-fluid user-logo"
+                                    <img style="width:300px;height:200px" class="img-fluid user-logo blur"
                                         src="images/user-logo3.PNG" alt="">
                                     <!-- <img src="images/asset7.png" alt=""> -->
                                 </div>
@@ -423,79 +396,81 @@
             </div>
         </div>
     </section>
-    <hr>
     <section id="" class="class6">
         <div class="std-page container ">
             <div class="sec6-heading">
                 <h2 class="align-center">What’s new at Freshworks</h2>
             </div>
             <div class="row align-left">
-                    <div class="card-space col-md-4  col-sm-4">
-                        <div class="card " >
-                            <a href="#">
-                                <img src="images/card1.png" class="card-img-top" alt="...">
-                            </a>
-                            <a href="#">
-                                <div class="card-body">
-                                    <!-- <h5 class="card-title">Card title</h5> -->
-                                    <p class="align-center"><strong>Freshworks Ranked Number 10 on the Forbes 2021 Cloud
-                                            100</strong></p>
-                                    <p class="card-p">Fifth consecutive year on the list driven by Freshworks CRM and ITSM
-                                        product adoption in 120 countries&nbsp;</p>
-                                    <p ><a href="#"><span class="forward-link link mt-xs" ><strong>Read more</strong>
-                                                <i class="icon fas fa-arrow-right"></i></span></a></p>
-                                </div>
-                            </a>
-                           
-                        </div>
+                <div class="card-space col-md-4  col-sm-4">
+                    <div class="card ">
+                        <a href="#">
+                            <img src="images/card1.png" class="card-img-top blur" alt="...">
+                        </a>
+                        <a href="#">
+                            <div class="card-body">
+                                <!-- <h5 class="card-title">Card title</h5> -->
+                                <p class="align-center"><strong>Freshworks Ranked Number 10 on the Forbes 2021 Cloud
+                                        100</strong></p>
+                                <p class="card-p">Fifth consecutive year on the list driven by Freshworks CRM and ITSM
+                                    product adoption in 120 countries&nbsp;</p>
+                                <p><a href="#"><span class="forward-link link mt-xs"><strong>Read more</strong>
+                                            <i class="icon fas fa-arrow-right"></i></span></a></p>
+                            </div>
+                        </a>
+
                     </div>
+                </div>
 
                 <div class="card-space col-md-4  col-sm-4">
                     <div class="card">
-                        <a href="#"><img src="images/card2.png" class="card-img-top" alt="..."></a>
+                        <a href="#"><img src="images/card2.png" class="card-img-top blur" alt="..."></a>
                         <a href="#">
                             <div class="card-body">
                                 <!-- <h5 class="card-title">Card title</h5> -->
                                 <p class="align-center adjust-p"><strong>Freshworks is a Visionary Again!</strong></p>
                                 <p class="card-p">2021 Gartner Magic Quadrant for the CRM Customer Engagement Center</p>
-                                <p "><a href="#"><span class="forward-link link mt-xs"><strong>Read more</strong>
-                                            <i class="icon fas fa-arrow-right"></i></span></a></p>
-                            </div>
-                        </a>
-
+                                <p "><a href=" #"><span class="forward-link link mt-xs"><strong>Read more</strong>
+                                        <i class="icon fas fa-arrow-right"></i></span>
+                        </a></p>
                     </div>
+                    </a>
+
                 </div>
+            </div>
 
 
-                <div class="card-space col-md-4  col-sm-4">
-                    <div class="card">
-                        <a href="#"><img src="images/card3.png" class="card-img-top" alt="..."></a>
-                        <a href="#">
-                            <div class="card-body">
-                                <!-- <h5 class="card-title">Card title</h5> -->
-                                <p class="align-center"><strong>Fresh thinking on D&amp;I&nbsp;</strong></p>
-                                <p class="card-p">How Freshworks' first Chief Diversity and Inclusion Officer plans to strike a positive balance</p>
-                                <p ><a href="#"><span class="forward-link link mt-xs"><strong>Read more</strong>
-                                            <i class="icon fas fa-arrow-right"></i></span></a></p>
-                            </div>
-                        </a>
+            <div class="card-space col-md-4  col-sm-4">
+                <div class="card">
+                    <a href="#"><img src="images/card3.png" class="card-img-top blur" alt="..."></a>
+                    <a href="#">
+                        <div class="card-body">
+                            <!-- <h5 class="card-title">Card title</h5> -->
+                            <p class="align-center"><strong>Fresh thinking on D&amp;I&nbsp;</strong></p>
+                            <p class="card-p">How Freshworks' first Chief Diversity and Inclusion Officer plans to
+                                strike a positive balance</p>
+                            <p><a href="#"><span class="forward-link link mt-xs"><strong>Read more</strong>
+                                        <i class="icon fas fa-arrow-right"></i></span></a></p>
+                        </div>
+                    </a>
 
-                    </div>
                 </div>
+            </div>
 
-            </div>
-            <div class="align-center ">
-                <a class="button btn btn-dark button-space" href="#">SEE ALL NEWS</a>
-            </div>
+        </div>
+        <div class="align-center ">
+            <a class="button btn btn-dark button-space" href="#">SEE ALL NEWS</a>
+        </div>
         </div>
     </section>
     <section class="class8">
-  
-  <div class="banner-cover" style="background: url(banner.png) ; ">
+
+        <div class="banner-cover" style="background: url(banner.png) ; ">
             <div class="container std-page banner-space">
                 <h2 class="align-center align-h2">Ready to get started?</h2>
                 <p class="sub-p align-center">
-                    Join our community of 50,000+ companies of all sizes who use Freshworks’ modern SaaS products to make it fast and easy to delight their customers and employees.
+                    Join our community of 50,000+ companies of all sizes who use Freshworks’ modern SaaS products to
+                    make it fast and easy to delight their customers and employees.
                 </p>
                 <div class="align-center">
                     <a href="#" class="button btn btn-outline-primary btn-lg btn-block btn-white">CONTACT SALES</a>
@@ -503,11 +478,9 @@
             </div>
         </div>
     </section>
-    <!-- <span class="contact-sales-button hidden-small">
-        <a href="#" class="button btn btn-dark button-space">CONTACT SALES</a>
-    </span> -->
-   <a href="" class="contact-sales-button hidden-small" ><span style="margin-bottom:0;" class="button btn btn-dark "><i style="color:white" class="far fa-envelope"></i> CONTACT SALES</span></a>
-    
+    <a href="" class="contact-sales-button hidden-small"><span style="margin-bottom:0;" class="button btn btn-dark "><i
+                style="color:white" class="far fa-envelope"></i> CONTACT SALES</span></a>
+
 </body>
 
 </html>

@@ -92,7 +92,7 @@
 }
 
 .testimonial-content {
-  padding: 50px 0 0;
+  padding: 20px 0 0;
 }
 @media (min-width: 960px) {
   .col-md-12 {
@@ -125,7 +125,7 @@
 
 .carousel.testimonial-home .testimonial-logo:before {
   background: url(../images/asset6.png) no-repeat;
-  left: -134px;
+  left: -86px;
 }
 
 @media only screen and (min-width: 18rem) {
@@ -136,7 +136,7 @@
   }
   .carousel.testimonial-home .testimonial-logo:after {
     background: url(../images/asset7.png) no-repeat;
-    right: -134px;
+    right:-86px;
     width: 34px;
     height: 28px;
   }
@@ -230,12 +230,23 @@
     font-size: 1rem;
     margin-bottom: 15px;
 }
+
 .author-name {
     margin-top:30px;
     margin-bottom: 50px;
     line-height: 1.44;
     font-size: 1.5rem;
 
+}
+@media only screen and (max-width: 48rem) {
+
+  .user-logo{
+    width:200px;
+    height: 100px;
+  }
+  .author-name h6{
+    font-size: 1rem;
+  }
 }
 
 .carousel-dark .carousel-indicators [data-bs-target] {
@@ -266,4 +277,8 @@
   padding-bottom: 5%;
   padding-right: 3%;
   padding-left: 3%;
+}
+.user-logo{
+  width:300px;
+  height: 200px;
 }
