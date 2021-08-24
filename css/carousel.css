@@ -128,7 +128,7 @@
   left: -86px;
 }
 
-@media only screen and (min-width: 18rem) {
+@media only screen and (min-width: 28rem) {
   .carousel.testimonial-home .testimonial-logo::after,
   .carousel.testimonial-home .testimonial-logo::before {
     width: 72px;
