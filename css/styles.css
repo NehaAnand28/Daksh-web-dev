@@ -392,9 +392,9 @@ a:visited {
   .class2 {
     margin: 6% 3%;
   }
-  /* .container {
+  .container {
     padding: 0 0;
-  } */
+  }
 }
 
 /* ----------------SECTION 3--------------------- */
@@ -410,7 +410,7 @@ a:visited {
   margin-right: 0 12.1%;
 }
 @media only screen and (max-width: 576px){
-  .container {
+  .space {
     padding: 0 12%;
   }
 }
