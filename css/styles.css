@@ -587,7 +587,7 @@ i:hover {
   .class5{
     padding: 0 0;
   }
-  
+
 }
 .align-left {
   text-align: left;
@@ -677,9 +677,7 @@ i:hover {
 
 .blur{
   animation:Fadein 1.5s ease-in;
-  /* scroll-behavior: smooth; */
-  /* z-index: -100;
-  transform: translateZ(0); */
+  
 }
 @keyframes Fadein {
   0% {
